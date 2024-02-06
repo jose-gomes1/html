@@ -8,7 +8,7 @@
 }
 #main .row{
     padding: 15px;
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px dashed rgb(0, 0, 0);
     /*grossura tipo de linha cor*/
     margin-bottom: 30px;
 }
