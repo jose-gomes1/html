@@ -6,16 +6,27 @@
     background: black;
     color: white;
 }
+
 #main .row{
-    padding: 15px;
-    border-bottom: 3px solid red;
-    /*grossura tipo de linha cor*/
-    margin-bottom: 30px;
+    width: 100%;
+    /*border-bottom: grossura tipo de linha cor*/
+    /*display 
+pode ser inline (só ocupa o espaço necessário e permite vários lado a lado) - width auto
+block (ocupa todo o espaço disponível) - width 100%
+inline-block (suporta vários elementos na msm linha e permite atribuir largura a cada um) - ex: várias colunas na msm linha*/
 }
+
+#main .col50{
+    display: inline-block;
+    width: 49%;
+}
+
+
 #main ul {
-    background: rgb(0, 0, 0);
+    background: rgb(6, 32, 0);
     color: rgb(0, 255, 76);
     border: 2px solid rgb(0, 255, 76);
+    list-style-type: none;
 }
 
 #main ul li {
@@ -24,12 +35,12 @@
     padding-left: 10px;
     padding-top: 5px;
     margin-bottom: 10px;
-    background: rgb(46, 0, 0);
+    background: rgb(5, 46, 0);
 }
 
 #main ol {
-    background: rgb(0, 0, 0);
-    color: hsl(286, 100%, 32%);
+    background: rgb(41, 0, 59);
+    color: hsl(281, 100%, 33%);
     border: 2px solid #7b00a0;
 }
 
@@ -41,3 +52,4 @@
     margin-bottom: 10px;
     background: rgb(8, 0, 46);
 }
+
