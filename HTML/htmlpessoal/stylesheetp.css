@@ -1,0 +1,14 @@
+#main {
+    width: 900px;
+    padding: 20px 30px;
+            /*Top, right, bottom, left*/
+    margin: 0 auto;
+    background: rgb(148, 108, 0);
+    color: black;
+}
+#main .row{
+    padding: 15px;
+    border-bottom: 3px dashed rgb(0, 0, 0);
+    /*grossura tipo de linha cor*/
+    margin-bottom: 30px;
+}

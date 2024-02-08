@@ -1,0 +1,104 @@
+#main{
+    width: 90%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    background: rgb(29, 29, 29);
+    color: white;
+}
+
+#logo{
+    width: 10px;
+    display: inline-block;
+}
+
+#menus {width: 500%; margin: 0;}
+#menus ul{
+    background: #313131;
+    width: 20%;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+#menus li{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    background: #313131;
+    display: inline;
+}
+#menus li:hover {
+    background: red;
+}
+.blue{
+    color: blue;
+}
+#links a{
+    margin: 20px;
+
+}
+#links a.red{
+    color: red;
+}
+
+#sub-menus {width: 75%; margin: 0;}
+#sub-menus ul{
+    background: #313131;
+    width: 40%;
+    color: red;
+    text-align: left;
+    padding: 10px;
+    list-style: none;
+    display: block;
+}
+#sub-menus li{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    background: #313131;
+    display: block;
+}
+#sub-menus li:hover {
+    background: red;
+}
+.blue{
+    color: blue;
+}
+#links a{
+    margin: 20px;
+    
+}
+#links a.red{
+    color: red;
+}
+
+.row40{
+    background: #313131;
+    width:40%;
+    display: inline;
+}
+.row50{
+    width: 50%;
+    padding: 0px 1000px;
+    text-align: right;
+}
+
+.img1{
+    width: 33%;
+    text-align: right;
+}
+
+.img2{
+    width: 33%;
+    text-align: center;
+}
+
+.img3{
+    width: 33%;
+    text-align: left;
+}
