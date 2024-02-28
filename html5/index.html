@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Ex 5</title>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div id="main">
+        <div class="row">
+            <div class="col30">
+                <img link src="https://i0.wp.com/azoresdih.pt/wp-content/uploads/2021/02/Logo-ENTA-1.png?ssl=1" alt="Logo"/>
+            </div>
+            <div class="col68">
+                <form action="#" method="get" name="pesquisa">
+                    <!--action identifica a ação, name é o nome do form, method existe só get e post
+                    methog="get" a informação vai para o url do site em variáveis (no security);
+                    method="post" info enviada encripata pelo server (better security)
+                    Label- "Nome:"
+                    Input type="text"; "email"; "password"; "radio" - escolha única/obrigatória; "checkbox" - Escolha multipla;
+                    "submit" - botão; "reset" - limpa; "select" - lista pré definida de opções para aquele campo-->
+                    <input type="text" name="search" placeholder="Search..."/>
+                    <input type="submit" name="Submit" value="P"/>
+                    </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col30">
+                        <ul id = "menu">
+                            <li><a href="#" title="Menu 1">Menu 1</a></li>
+                            <li><a href="#" title="Menu 2">Menu 2</a>
+                                <ul class = "submenu">
+                                    <li><a href="#" title="Sub Menu 1">Sub Menu 1</a></li>
+                                    <li><a href="#" title="Sub Menu 2">Sub Menu 2</a></li>
+                                    <li><a href="#" title="Sub Menu 3">Sub Menu 3</a></li>
+                                </ul>
+                            </li>
+                        <li><a href="#" title="Menu 3">Menu 3</a></li>
+                            <li><a href="#" title="Menu 4">Menu 4</a></li>
+                        </ul>
+                
+            </div>
+            <div class="col68">
+                <img link src ="#" alt="Imagem">
+                <h1>Título</h1>
+                <p>Parágrafo c/link</p>
+            </div>
+            
+        </div>
+        <div class="row">
+                <div class="col30">
+                </div>
+                <div class="col68">
+                    <img link src ="#" alt="Imagem2">
+                    <img link src ="#" alt="Imagem3">
+                    <img link src ="#" alt="Imagem4">
+                    <form action="#" method="post" name="Formulário">
+                        <label>Nome: </label>
+                        <input type="Text" name="text" placeholder="Digita o teu nome"/>
+                        <label>Email: </label>
+                        <input type="email" name="mail" placeholder="Digita o teu email"/>
+                        <label>Assunto: </label>
+                        <select nome ="assunto">
+                            <option>Opção 1</option>
+                            <option>Opção 2</option>
+                            <option>Opção 3</option>
+                            <option>Opção 4</option>
+                        </select><br>
+                        <label>Sexo: </label><br>
+                        <input type="radio" name="sexo" placeholder=""/>
+                            <label for="Masculino">Masculino</label><br>
+                            <input type="radio" name="sexo" placeholder=""/>
+                            <label for="Feminino">Feminino</label><br>
+                            <input type="radio" name="sexo" placeholder=""/>
+                            <label for="Prefiro não dizer/outro">Prefiro não dizer/outro</label><br>
+                        <label>Mensagem: </label><br>
+                        <textarea name="Mensagens"></textarea><br>
+                        <input type="Submit" name="button" placeholder=""/>
+                        <input type="reset" name="button2" placeholder=""/>
+                    </form>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
