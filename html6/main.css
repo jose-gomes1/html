@@ -1,0 +1,36 @@
+main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#colleft{
+    display: inline-block;
+    width: 33%;
+    padding: 1% 2%;
+    vertical-align: top;
+}
+
+#colright{
+    display: inline-block;
+    width: 33%;
+    padding: 1% 2%;
+}
+
+#address{
+    display: block;
+    width: 1000px;
+    height: 150px;
+}
+
+#label{
+    display: inline-block;
+    width: 10%;
+}
+
+#botao{
+    width: 45%;
+    height: 5%;
+    background-color: black;
+    color: white;
+}

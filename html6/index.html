@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Formulário de Registro</h1>
+    <div id= colleft>
+    <form action="#" method="post" name="Formulário">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="address">Morada Completa:</label>
+        <textarea id="address" name="address" placeholder=" "></textarea>
+    </div>
+    <div id="colright">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <div id= colleft>
+        <label for="birthdate">Data de nascimento:</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br>
+        <label for="gender">Sexo:</label><br>
+        <select id="gender" name="gender">
+            <option value="">Escolha...</option>
+            <option value="male">Masculino</option>
+            <option value="female">Feminino</option>
+            <option value="other">Outro</option>
+        </select>
+        <br>
+        <label for="interests">Interesses:</label>
+        <div id="interests">
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Musica</label>
+            <input type="checkbox" id="politics" name="interests" value="politics">
+            <label for="politics">Politica</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Desporto</label><br>
+            <input type="checkbox" id="technology" name="interests" value="technology">
+            <label for="technology">Informatica</label>
+            <input type="checkbox" id="cars" name="interests" value="cars">
+            <label for="cars">Carros</label>
+            <input type="checkbox" id="video" name="interests" value="video">
+            <label for="video">Video</label>
+        </div>
+        <br>
+        <label for="degree">Grau académico:</label><br>
+        <input type="radio" id="basic" name="degree" value="basic">
+        <label for="basic">Basico</label>
+        <input type="radio" id="secondary" name="degree" value="secondary">
+        <label for="secondary">Secundario</label>
+        <input type="radio" id="advanced" name="degree" value="advanced">
+        <label for="advanced">Superior</label>
+        <br>
+        <input type="Submit" name="button" placeholder="" id="botao"/>
+        <input type="reset" name="button2" placeholder="" id="botao"/>
+    </form>
+</body>
+</html>
