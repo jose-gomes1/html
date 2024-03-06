@@ -2,6 +2,7 @@ main{
     width: 1200px;
     margin: 0 auto;
     padding: 0;
+    position: relative;
 }
 
 #colleft{
@@ -21,6 +22,7 @@ main{
     display: block;
     width: 1000px;
     height: 150px;
+    border: 1px solid black;
 }
 
 #label{
@@ -33,4 +35,34 @@ main{
     height: 5%;
     background-color: black;
     color: white;
+}
+
+.border-form{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 128, 0);
+    color: wheat;
+}
+
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -100px;
+    line-height: 200px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#loader .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
